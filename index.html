@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalice.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <title>Homework</title>
+</head>
+
+<body>
+    <section class="sobremi">
+        <h1 class="titulo">SOBRE MI </h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur obcaecati assumenda
+            vero aperiam facilis minus
+            asperiores sint ut, delectus sunt?
+            Debitis tempora dicta iste laborum, blanditiis omnis? Adipisci, harum saepe?Lorem ipsum
+            dolor sit, amet consectetur adipisicing elit. Deleniti, harum quidem asperiores
+            exercitationem veritatis cumque veniam consectetur
+            rerum odio dolor beatae esse accusamus? Aut amet quibusdam, quos quisquam
+            facilis unde! Lorem ipsum, dolor
+            sit amet consectetur adipisicing elit. Omnis optio architecto ut aperiam a
+            neque, cupiditate, nam, sequi est at recusandae!
+            Aut vel quam eveniet at quasi autem dolorem quis?</p>
+    </section>
+    <div class="cajagrande">
+        <section class="tecnofav">
+            <h1 class="tecnofavtitulo">MIS TECNOLOGIAS FAVORITAS</h1>
+
+            <img src="imagenes/FIGURA-1-LOGOTIPOS-DE-HTML5-JAVASCRIPT-Y-CSS3.png" alt="" class="imgtec">
+
+        </section>
+        <section class="actividadfav">
+            <h1 class="actividadesfavtitulo">MIS ACTIVIDADES FAVORITAS</h1>
+            <form>
+
+                <label for="titulo">Título:</label><br>
+                <input type="text" id="titulo" name="titulo" required><br>
+
+                
+                <label for="descripcion">Descripción:</label><br>
+                <textarea id="descripcion" name="descripcion" rows="4" cols="50" required></textarea><br>
+
+                
+                <label for="urlImagen">URL de la Imagen:</label><br>
+                <input type="url" id="urlImagen" name="urlImagen"required ><br>
+
+                <input type="submit" value="Agregar Actividad" id="buttonsubmit">
+            </form>
+        </section>
+    </div>
+    <div id="contenedorActividades">
+        <section class="contenedortarjetas">
+            <h2>ACTIVIDADES</h2>
+            <article  id="organizadordetarjetas">
+
+            </article>
+
+        </section>
+    </div>
+
+</body>
+<script src="scripts/modulo.js"></script>
+<script src="scripts/controles.js"></script>
+<script src="scripts/index.js"></script>
+
+
+</html>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
